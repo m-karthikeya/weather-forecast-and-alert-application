@@ -1,0 +1,16 @@
+#.gitignore
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Locally generated data (Keeps your GitHub repo clean)
+outputs/
+reports/
+
+# OS specific files
+.DS_Store
+Thumbs.db
