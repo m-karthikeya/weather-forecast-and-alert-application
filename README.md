@@ -1,4 +1,4 @@
-```markdown
+
 # 🌤️ Weather Forecast & Alert Application
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
@@ -116,6 +116,3 @@ streamlit run main.py
 * **Dynamic Generation:** The `outputs` and `reports` directories are autonomously generated at runtime via the `os` library, ensuring the application is portable and clean upon initial clone.
 * **Data Security:** By utilizing Open-Meteo, the application avoids hardcoded secrets and environment variables, making it instantly executable for peer review.
 
-```
-
-```
