@@ -30,14 +30,13 @@ def check_alerts(data):
         "Temp_C": temp,
         "Humidity": humidity,
         "Condition": condition_text,
-        "Alerts": alert_list # Returning a list of alerts now
+        "Alerts": alert_list
     }
 
 def get_daily_forecast(data):
     """Extracts a simple 3-day forecast summary."""
-    # We grab data at index 24 (Day 1), 48 (Day 2), 72 (Day 3) roughly
-    # In a real app, you'd use the daily endpoint, but we'll extract it from hourly here
-    # to keep the API call simple.
+    # Extract daily high temperatures and precipitation probabilities
+    # from the hourly forecast arrays.
     forecast = []
     
     try:

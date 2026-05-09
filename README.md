@@ -7,9 +7,9 @@
 ![Data](https://img.shields.io/badge/Data_Analysis-Pandas-150458.svg)
 
 ## 📌 Project Overview
-A real-time, interactive meteorological monitoring tool that fetches live satellite data, analyzes weather patterns, and provides predictive warnings. This application was built to demonstrate proficiency in API integration, automated data processing, geospatial handling, and data visualization.
+A real-time, interactive meteorological monitoring tool that fetches live satellite data, analyzes weather patterns, and provides predictive warnings. The application integrates live APIs, automates data processing, handles geospatial routing, and renders data visualizations
 
-Unlike standard weather scripts, this project operates as a fully functional web dashboard, converting complex JSON forecast arrays into actionable insights and professional visual trends.
+The project operates as a fully functional web dashboard, converting complex JSON forecast arrays into actionable insights and professional visual trends.
 
 ## 🚀 Features
 * **Real-Time Data Integration:** Connects to the Open-Meteo API for live, coordinate-based weather data (No API key required).
@@ -109,10 +109,10 @@ streamlit run main.py
 
 ---
 
-## 🧠 Technical Highlights (For Recruiters)
+## 🧠 Technical Highlights 
 
 * **Modular Design:** The project architecture cleanly separates the User Interface (`main.py`), Data Retrieval (`api_handler.py`), Business Logic (`logic_engine.py`), and Storage (`report_generator.py`).
 * **Error Handling:** Gracefully handles invalid city inputs and API timeout failures without crashing the application.
 * **Dynamic Generation:** The `outputs` and `reports` directories are autonomously generated at runtime via the `os` library, ensuring the application is portable and clean upon initial clone.
-* **Data Security:** By utilizing Open-Meteo, the application avoids hardcoded secrets and environment variables, making it instantly executable for peer review.
+* **Data Security:** By utilizing Open-Meteo, the application avoids hardcoded secrets and environment variables, ensuring the application is instantly executable upon cloning.
 

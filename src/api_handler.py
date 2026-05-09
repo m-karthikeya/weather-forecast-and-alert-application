@@ -10,7 +10,7 @@ def get_weather_data(city):
     """
     try:
         # Step 1: Get Coordinates
-        geolocator = Nominatim(user_agent="weather_app_student_project")
+        geolocator = Nominatim(user_agent="weather_forecast_dashboard")
         location = geolocator.geocode(city)
         
         if not location:

@@ -70,7 +70,6 @@ if run_btn:
             st.subheader("📈 48-Hour Temperature Trend")
             chart_path = create_forecast_chart(data['hourly'], city)
             
-            # FIXED LINE HERE: Changed use_column_width to use_container_width
             st.image(chart_path, use_container_width=True)
 
             # --- DATA LOGGING ---
